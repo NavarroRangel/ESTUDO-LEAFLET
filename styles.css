@@ -1,0 +1,23 @@
+#map{
+    height: 1000vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.custom-tooltip{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    color: #000;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    box-shadow: none;
+    font-weight: bold;
+    margin: 0.5px;
+   
+}
+.leaflet-tooltip-left::before,
+        .leaflet-tooltip-right::before,
+        .leaflet-tooltip-top::before,
+        .leaflet-tooltip-bottom::before {
+            display: none;}
