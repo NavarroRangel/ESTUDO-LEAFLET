@@ -17,7 +17,7 @@ function closeToolTipsOnZoomOut(){
         } else {
             marker.openTooltip()
             marker2.openTooltip()
-        }
+        }   
     })
 }
 
